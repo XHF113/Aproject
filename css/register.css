@@ -1,0 +1,180 @@
+body{
+	min-width: 996px;
+	color: #666;
+    background: #fff;
+    font: 12px/150% Arial,"simsun","microsoft yahei";
+    text-align: center;
+    position: relative;
+    background-size: cover;
+}
+.body-img{
+	width: 100%;
+	height: 970px;
+	vertical-align: middle;
+}
+.container{
+	margin-top: 0px;
+    margin-bottom: 0px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+}
+.registers{
+	position: relative;
+}
+.login{
+	position: relative;
+	width: 996px;
+    margin: 0 auto;
+    padding: 0;
+    height: 590px;
+    color: #3c3b3b;
+}
+.login .logo-box{
+	position: absolute;
+	top: 30px;
+	left: 0;
+}
+.login-box{
+	position: absolute;
+	right: 0;
+	top: 100px;
+	width: 418px;
+	height: 590px;
+	background: #fff;
+	background: rgba(255,255,255,0.7);
+	box-shadow: 0 0 6px #888888;
+}
+.login-box .title{
+	padding-left: 40px;
+    padding-top: 85px;
+    margin-bottom: 15px;
+    line-height: 35px;
+    text-align: left;
+}
+.title h2{
+    font-family: 'microsoft yahei';
+    font-size: 18px;
+    color: #2b2b2b;
+    display: inline;
+    font-weight: normal;
+}
+.login-box form{
+	padding-left: 40px;
+}
+.text-box, .pass-box{
+	margin-bottom: 25px;
+}
+.text-box .text, .pass-box .pass{
+	width: 280px;
+	height: 24px;
+	line-height: 24px;
+	float: left;
+	color: #757575;
+	box-shadow: none;
+	border: 1px solid #8e9198;
+	padding: 4px 6px;
+} 
+.text-box .text:focus{
+	border: 1px solid #fd7114;
+} 
+.pass-box .pass:focus{
+	border: 1px solid #fd7114;
+}
+.dl-mm{
+	text-align: left;
+	margin-bottom: 25px;
+}
+.dl-mm span{
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: normal;
+}
+.dl-mm a{
+	font-size: 14px;
+	line-height: 20px;
+	text-decoration: underline;
+	color: #23729e;
+}
+.login-box .sub-p{
+	border-top: 1px dotted #b2b2b2;
+	padding-top: 20px;
+	text-align: left;
+}
+.sub-p input{
+	display: inline-block;
+	height: 42px;
+	width:135px;
+	float: left;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	line-height: 30px;
+	background: #fa7b00;
+	border: 0;
+}
+.sub-p input:hover{
+	background:#fe9f00;
+	cursor: pointer; 
+}
+.sub-p span{
+	float: left;
+	padding-left: 48px;
+	line-height: 20px;
+}
+.sub-p span a{
+	display: block;
+	text-decoration: underline;
+	color: #23729e;
+}
+.login .app-img{
+	position: absolute;
+	top: 190px;
+	left: 40px;
+	width: 339px;
+	height: 402px;
+	background: url(../img/app-ad.png) 0 0 no-repeat;
+}
+.footer{
+	position: absolute;
+	top: 901px;
+	padding: 20px 0 20px;
+	background: #fff;
+	background: rgba(255,255,255,0.7);
+	width: 100% !important;
+}
+.footercontent{
+	width: 996px;
+    margin: 0 auto;
+    overflow: hidden;
+} 
+.footercontent p{
+	float: left;
+	color: #757575;
+	line-height: 24px;
+	padding-bottom: 5px;
+}
+.footercontent ul li{
+	display: inline-block;
+	float: right;
+}
+.footercontent ul li a{
+	margin: 0 10px 0 5px;
+	color: #49758b;
+}
+.footercontent ul li a:hover{
+	text-decoration: underline;
+}
+.fubiao{
+	width: 50px;
+	height: 50px;
+	display: block;
+    position: fixed;
+    right: 196px;
+    top: 879px;
+    background: url(../img/gotop.gif) -52px -53px no-repeat;
+}
+.fubiao:hover{
+	background: url(../img/gotop.gif) 0 -53px  no-repeat ;
+}
